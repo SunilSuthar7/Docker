@@ -24,8 +24,8 @@ jobs:
 
       # Step 3: Build and tag the Docker image
       - name: Build Docker image
-        run: docker build -t mydockerhubusername/my-simple-app:latest .
+        run: docker build -t sunilsuthar7/my-simple-app:latest .
 
       # Step 4: Push the image to DockerHub
       - name: Push Docker image
-        run: docker push mydockerhubusername/my-simple-app:latest
+        run: docker push sunilsuthar7/my-simple-app:latest
